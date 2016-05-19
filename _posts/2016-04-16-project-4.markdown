@@ -1,0 +1,15 @@
+---
+title: Zooniverse
+subtitle: digital
+layout: default
+modal-id: 4
+date: 2016-04-01
+img: ['pfe_ui.gif']
+thumbnail: zooni-thumb.jpg
+alt: image-alt
+project-date: April 2016
+client: Zooniverse.org
+category: digital
+description: UX and UI updates to Zooniverse.org, a joint Adler Planetarium and Oxford University citizen science platform. The former design for the Zooniverse Project Builder platform had a bloated and overwhelming navigation where Zooniverse.org primary navigation was layered on top of each individual project's own navigation. But by condensing the navigation system down it becomes approachable and to the user and reinforces Zooniverse as a holistic and persistent identity.
+
+---

@@ -1,0 +1,15 @@
+---
+title: Get Outside!
+subtitle: print
+layout: default
+modal-id: 3
+date: 2014-06-01
+img: ['TribModel01.jpg','TribModel.jpg']
+thumbnail: TribModel-thumb.jpg
+alt: image-alt
+project-date: June 2014
+client: The Chicago Tribune
+category: print
+description: Images from a piece created for The Chicago Tribune 06/01/2014 issue.
+
+---

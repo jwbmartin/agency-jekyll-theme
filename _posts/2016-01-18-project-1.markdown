@@ -1,0 +1,15 @@
+---
+title: Exploring Drake's Equation
+subtitle: digital
+layout: default
+modal-id: 1
+date: 2016-01-18
+img: ['drake-ipad.gif','drakeimg-01.jpg', 'drakeimg-02.jpg']
+thumbnail: drake-thumb.jpg
+alt: image-alt
+project-date: January 2016
+client: The Adler Planetarium
+category: digital
+description: A simple app to demonstrate the Drake Equation which estimates active, communicative extraterrestrial civilizations in our Milky Way galaxy. Created for The Adler Planetarium's Adler After Dark event.
+
+---
