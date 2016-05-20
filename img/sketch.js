@@ -1,30 +1,9 @@
 function setup() {
   createCanvas(windowWidth, windowHeight);
   smooth();
-  frameRate(8);
 }
 
 function draw() {
-  if (mouseIsPressed) {
-  	background(237,34,93);
-    fill(255,255,255);
-    stroke(35,79,163);
-    strokeWeight(1.5);
-      	var dist = 90;
-    for (var i = 25; i < width; i+=dist) {
-      for (var j = 25; j < height; j+=dist) {
-        rectMode(CENTER);
-        ellipse(i, j, random(40), random(25));
-      }
-    }
-    fill(35,79,163);
-    for (var i = 25; i < width; i+=dist) {
-      for (var j = 25; j < height; j+=dist) {
-        rectMode(CENTER);
-        ellipse(i, j, random(1), random(20));
-      }
-    }
- } else {
  	background(31,247,183);
     fill(225, 255, 255);
     stroke(35,79,163);
@@ -49,4 +28,3 @@ function draw() {
       }
     }
   }
-}
