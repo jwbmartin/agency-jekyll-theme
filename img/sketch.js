@@ -1,11 +1,11 @@
-if (mouseIsPressed) {
 function setup() {
   createCanvas(windowWidth, windowHeight);
   smooth();
-  frameRate(8);
+  frameRate(20);
 }
 
 function draw() {
+  if (mouseIsPressed) {
   	background(237,34,93);
     fill(255,255,255);
     stroke(35,79,163);
@@ -24,16 +24,8 @@ function draw() {
         ellipse(i, j, random(1), random(20));
       }
     }
- } 
-}
- else {
-  function setup() {
-  createCanvas(windowWidth, windowHeight);
-  smooth();
-}
-
-   function draw() {
- 	  background(31,247,183);
+ } else {
+ 	background(31,247,183);
     fill(225, 255, 255);
     stroke(35,79,163);
     strokeWeight(1.5);
