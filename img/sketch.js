@@ -25,7 +25,7 @@ function draw() {
       }
     }
  } 
-
+}
  else {
   function setup() {
   createCanvas(windowWidth, windowHeight);
