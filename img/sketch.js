@@ -1,11 +1,10 @@
 function setup() {
   createCanvas(windowWidth, windowHeight);
   smooth();
-  frameRate(8);
 }
 
 function draw() {
- 	background(31,247,183);
+ 	  background(31,247,183);
     fill(225, 255, 255);
     stroke(35,79,163);
     strokeWeight(1.5);
