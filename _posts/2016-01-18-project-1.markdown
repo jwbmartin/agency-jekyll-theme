@@ -4,7 +4,7 @@ subtitle: digital
 layout: default
 modal-id: 1
 date: 2016-01-18
-img: ['drake-ipad.gif' , 'DrakeIMG-01.jpg' , 'DrakeIMG-02.jpg']
+img: ['drake-ipad.gif' , 'DrakeIMG-01.JPG' , 'DrakeIMG-02.JPG']
 thumbnail: drake-thumb.jpg
 alt: image-alt
 project-date: January 2016
