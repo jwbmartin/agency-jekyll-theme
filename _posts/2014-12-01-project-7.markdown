@@ -4,7 +4,7 @@ subtitle: exploration
 layout: default
 modal-id: 7
 date: 2014-12-01
-img: ['unspoke01.jpg','unspoke3.png', 'unspoke4.jpg']
+img: ['unspoke01.JPG','unspoke3.png', 'unspoke4.JPG']
 thumbnail: unspoke-thumb.jpg
 alt: image-alt
 project-date: April 2016
