@@ -1,7 +1,7 @@
 function setup() {
   createCanvas(windowWidth, windowHeight);
   smooth();
-  frameRate(10);
+  frameRate(13);
 }
 
 function draw() {
