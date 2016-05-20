@@ -5,6 +5,7 @@ function setup() {
 
 function draw() {
   if (mouseIsPressed) {
+    frameRate(8);
   	background(237,34,93);
     fill(255,255,255);
     stroke(35,79,163);
