@@ -5,7 +5,7 @@ layout: default
 modal-id: 8
 date: 2015-08-01
 img: ['fnewmarch.jpg', 'charliespread1.jpg', 'charliespread2.jpg']
-thumbnail: fnews-thumb.jpg
+thumbnail: fnews-thumb.JPG
 alt: image-alt
 project-date: 2013-2015
 client: Fnewsmagazine
