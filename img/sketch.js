@@ -9,7 +9,7 @@ function draw() {
   	background(237,34,93);
     fill(255,255,255);
     stroke(35,79,163);
-    strokeWeight(3);
+    strokeWeight(1.5);
       	var dist = 90;
     for (var i = 25; i < width; i+=dist) {
       for (var j = 25; j < height; j+=dist) {
