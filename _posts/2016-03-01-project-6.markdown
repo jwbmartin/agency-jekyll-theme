@@ -4,7 +4,7 @@ subtitle: identity
 layout: default
 modal-id: 6
 date: 2016-03-01
-description: Created for The Adler Planetarium | Far Horizon's Night time Earth imaging Cubesat intiative. The identity for NITEsat (Night Imaging & Tracking Experiment Satellite) drew inspiration from technology and aerial photography. It looks geographical and of-this-earth, as well as space-age and futuristic. It represents both the Cubesat, and what the Cubesat will be looking down on.<p><p style="font-size:85%;"><i> Callaborative work with <a href="http://cbgworks.com/">Christopher Givens</i></a></p>
+description: Created for The Adler Planetarium | Far Horizon's Night time Earth imaging Cubesat intiative. The identity for NITEsat (Night Imaging & Tracking Experiment Satellite) drew inspiration from technology and aerial photography. It looks geographical and of-this-earth, as well as space-age and futuristic. It represents both the Cubesat, and what the Cubesat will be looking down on.<p><p style="font-size:80%;"><i> Callaborative work with <a href="http://cbgworks.com/">Christopher Givens</i></a></p>
 img: ['Nitesat02.png', 'NiteSat03.jpg', 'NiteSat01.jpg']
 thumbnail: NiteSat_thumb.jpg
 alt: image-alt
