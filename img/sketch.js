@@ -1,3 +1,5 @@
+//OpenProcessing Tweak of http://www.openprocessing.org/sketch/70750 written by Jordan Whitney Martin
+
 function setup() {
   createCanvas(windowWidth, windowHeight);
   smooth();
