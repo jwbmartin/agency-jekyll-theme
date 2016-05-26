@@ -1,5 +1,5 @@
 ---
-title: Exploring Drake's Equation
+title: The Drake Equation
 subtitle: digital
 layout: default
 modal-id: 1
