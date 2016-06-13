@@ -50,7 +50,7 @@ function draw() {
       for (var j = 25; j < height; j+=dist) 
       {
         var x1 = map(mouseX || touchX, 0, width, i-11.5, 11.5+i);
-        var y1 = map(mouseY || touchY, 0, height, j-3.2, j+3);
+        var y1 = map(mouseY || touchY, 0, height, j-2, j+2);
         ellipse(x1, y1, 14, 14);
       }
     }
