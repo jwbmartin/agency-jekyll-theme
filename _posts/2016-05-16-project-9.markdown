@@ -10,6 +10,6 @@ alt: image-alt
 project-date: May 2016
 client: cleverbridge
 category: digital
-description: Many businesses have unwanted hardware, like old desktop computers, that are often discarded and thrown away into our landfills. Meanwhile, many Chicago Public Schools’ studnts are falling behind in STEM studies because they lack access to technology. CPU to EDU is a resource that allows businesses to donate their unwanted materials to Chicago students in need. <p> Haphazardly thown together during cleverbridge's <a href="www.https://hacktothefuture.splashthat.com/">Hack to the Future Hackathon</a>, our goal was to provide the resources to help students extend learning in the classroom and beyond.</p> 
+description: Many businesses have unwanted hardware, like old desktop computers, that are often discarded and thrown away into our landfills. Meanwhile, many Chicago Public Schools’ studnts are falling behind in STEM studies because they lack access to technology. CPU to EDU is a resource that allows businesses to donate their unwanted materials to Chicago students in need. <p> Haphazardly thown together during cleverbridge's <a href="www.https://hacktothefuture.splashthat.com/">Hack to the Future Hackathon</a>, our goal was to provide the resources to help students extend learning in the classroom and beyond.</p> <p> <a href="https://cputoedu.herokuapp.com/">See the live site here</a>
 
 ---
