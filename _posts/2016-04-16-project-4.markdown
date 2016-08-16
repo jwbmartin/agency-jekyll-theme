@@ -3,8 +3,8 @@ title: Zooniverse
 subtitle: digital
 layout: default
 modal-id: 4
-date: 2016-04-01
-img: ['PFE_UI.gif']
+date: 2016-01-09
+img: ['PFE_UI.gif', 'zooniverse_landing.png']
 thumbnail: zooni-thumb.jpg
 alt: image-alt
 project-date: April 2016

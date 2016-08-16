@@ -3,7 +3,7 @@ title: Get Outside!
 subtitle: print
 layout: default
 modal-id: 3
-date: 2014-06-01
+date: 2016-01-01
 img: ['TribModel01.jpg','TribModel.jpg']
 thumbnail: TribModel-thumb.jpg
 alt: image-alt

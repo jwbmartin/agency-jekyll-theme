@@ -18,6 +18,10 @@
                             {% for image in post.img %}
                                 <img src="img/portfolio/{{ image }}" class="img-responsive img-centered" alt="{{ post.alt }}">
                             {% endfor %}
+                           <p>{{ post.description2 }}</p>
+                            {% for image in post.img2 %}
+                            <img src="img/portfolio/{{ image }}" class="img-responsive img-centered" alt="{{ post.alt }}">
+                            {% endfor %}
                             <ul class="list-inline item-details">
                                 <li>Date:
                                     <strong>{{ post.project-date }}

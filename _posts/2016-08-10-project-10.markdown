@@ -1,0 +1,15 @@
+---
+title: Notes from Nature
+subtitle: digital
+layout: default
+modal-id: 10
+date: 2016-01-07
+img: ['NfNScreen.png']
+thumbnail: NfNScreen-thumb.jpg
+alt: image-alt
+project-date: Aug 2016
+client: Notesfromnature.org
+category: digital
+description: Only a small fraction of all natural history specimen data is available digitally, while the vast majority remains locked away from view and use. The Notes from Nature transcription project is a citizen science platform built to address this problem by helping to digitize the world’s biological collections. The redesign of notesfromnature.org was created with easy calls to action and a renewed focus on connecting the people behind the research with the community.
+
+---

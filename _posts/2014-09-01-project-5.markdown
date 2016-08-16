@@ -3,7 +3,7 @@ title: Design Bureau Magazine
 subtitle: digital
 layout: default
 modal-id: 5
-date: 2014-09-01
+date: 2016-01-03
 img: ['DB_ipad.gif']
 thumbnail: db-thumb.jpg
 alt: image-alt
