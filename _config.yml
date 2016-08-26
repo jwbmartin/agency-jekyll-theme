@@ -12,6 +12,9 @@ social:
     url: http://twitter.com/jordanin312
   - title: github
     url: http://github.com/jwbmartin
+  - title: instagram
+    url: https://www.instagram.com/jordanwhitneym
+
 
 # Build settings
 markdown: kramdown
