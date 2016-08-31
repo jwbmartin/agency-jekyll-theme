@@ -347,8 +347,6 @@ header .header-content .header-content-inner p {
 
   header .header-content {
     position: absolute;
-    top: 30%;
-    display: block;
     vertical-align: center;
     -webkit-transform: translateY(-135%);
     -ms-transform: translateY(135%);
@@ -359,10 +357,13 @@ header .header-content .header-content-inner p {
   }
 
   header .header-content .header-content-inner {
-    max-width: 1000px;
+    width: auto;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+   left: 50%;
+    top: 50%; 
+    margin-left: -150px;
+    margin-top: -150px;
+    display: block;
   }
 
   header .header-content .header-content-inner h1 {
