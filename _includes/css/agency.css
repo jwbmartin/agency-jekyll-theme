@@ -303,11 +303,9 @@ fieldset[disabled] .btn-xl.active {
     }
 }
 
+
 header {
     min-height: auto;
-    background-position: center;
-    background-image: url('img/static-eyes.png');
-    background-repeat: repeat;
     color: #fff;
 
 }
@@ -380,6 +378,13 @@ header .header-content .header-content-inner p {
 
 }
 
+@media (max-width: 600px){
+    header {
+    background-position: center;
+    background-image: url('img/static-eyes.png');
+    background-repeat: repeat;
+    
+}
 
 .button .top {
     margin: 35px 5px 5px 5px;
