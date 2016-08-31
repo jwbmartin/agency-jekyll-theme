@@ -282,6 +282,7 @@ fieldset[disabled] .btn-xl.active {
  #bg {
         position: abs;
         height: 100vh;
+        width: 100vw;
         top: 0;
         right: 0;
         left: 0;
@@ -358,8 +359,9 @@ header .header-content .header-content-inner p {
 
   header .header-content .header-content-inner {
     max-width: 1000px;
-    margin-left: center;
-    margin-right: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   header .header-content .header-content-inner h1 {
@@ -379,11 +381,12 @@ header .header-content .header-content-inner p {
 }
 
 @media (max-width: 600px){
+
     header {
     background-position: center;
     background-image: url('img/static-eyes.png');
     background-repeat: repeat;
-    
+    }
 }
 
 .button .top {
