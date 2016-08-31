@@ -282,7 +282,6 @@ fieldset[disabled] .btn-xl.active {
  #bg {
         position: abs;
         height: 100vh;
-        width: 100vw;
         top: 0;
         right: 0;
         left: 0;
@@ -314,6 +313,7 @@ header {
 header .header-content {
     position: relative;
     padding: 100px 15px;
+    vertical-align: center;
     text-align: center;
     display: block;
 }
@@ -349,6 +349,7 @@ header .header-content .header-content-inner p {
     position: absolute;
     top: 30%;
     display: block;
+    vertical-align: center;
     -webkit-transform: translateY(-135%);
     -ms-transform: translateY(135%);
     transform: translateY(-135%);
