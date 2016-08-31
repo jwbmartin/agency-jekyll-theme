@@ -305,17 +305,18 @@ fieldset[disabled] .btn-xl.active {
 
 
 header {
+    min-width: 100vw;
     min-height: auto;
-    color: #fff;
-
+    position: relative;
+    text-align: center;
+    display: block;
 }
 
 header .header-content {
     position: relative;
     padding: 100px 15px;
     vertical-align: center;
-    text-align: center;
-    display: block;
+    
 }
 
 header .header-content .header-content-inner h1 {
@@ -342,27 +343,29 @@ header .header-content .header-content-inner p {
 @media (min-width: 768px) {
 
   header {
-    min-height: 100%;
+    min-height: auto;
+    position: abso;
+    width: auto;
+    text-align: center
+
   }
 
   header .header-content {
     position: absolute;
-    vertical-align: center;
-    -webkit-transform: translateY(-135%);
-    -ms-transform: translateY(135%);
-    transform: translateY(-135%);
+    -webkit-transform: translateY(-145%);
+    -ms-transform: translateY(145%);
+    transform: translateY(-145%);
+
     padding: 0 80px;
-    text-align: center;
  
   }
 
   header .header-content .header-content-inner {
-    width: auto;
     display: block;
    left: 50%;
     top: 50%; 
-    margin-left: -150px;
-    margin-top: -150px;
+    margin-left: -50px;
+    margin-top: -50px;
     display: block;
   }
 
