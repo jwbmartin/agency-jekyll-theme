@@ -345,6 +345,7 @@ fieldset[disabled] .btn-xl.active {
         width: 100%;
         margin-right: auto;
         margin-left: auto;
+        display: block;
 
     }
 
@@ -368,7 +369,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .button .top {
-    margin: 35px 5px 5px 5px;
+    margin: 20px auto;
     z-index: 98;
     position: relative;
     background-color: transparent;
@@ -450,15 +451,15 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .button-bottom {
-    z-index: 95;
-    margin: 42px 150px 15px 5px;
+    margin: auto;
+    z-index: 96;
     position: absolute;
     background-color: #1EF7B7;
     height: 60px;
     width:190px;
     border:  none;
-    display: inline-block;
-    right: 21%;
+    left:37%;
+    top:75%;
 }
 
 @media (max-width: 768px) {
