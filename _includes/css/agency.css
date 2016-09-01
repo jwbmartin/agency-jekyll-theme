@@ -4,7 +4,7 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
-body {
+ body {
     overflow-x: hidden;
     font-family: 'Montserrat',"Helvetica Neue",Helvetica,Arial,sans-serif;
     color: #{{ site.data.template.color.secondary-dark }};
@@ -259,8 +259,8 @@ fieldset[disabled] .btn-xl.active {
     }
 
     .navbar-shrink {
-    padding: 01px 0;
-       background-color: #1ff7b7;
+        padding: 01px 0;
+        background-color: #1ff7b7;
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
@@ -279,28 +279,28 @@ fieldset[disabled] .btn-xl.active {
     background: url('img/eyeloader.gif') 50% 50% no-repeat rgb(249,249,249);
 }
 
- #bg {
-        height: 100vh;
-        width: 100vw;
-        top: 0;
-        right: 0;
-        left: 0;
-        z-index: -1;
-    }
+#bg {
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: -1;
+}
 
 
 
 @media (max-width: 768px) {    
- #bg {
-        visibility: hidden;
-        position: absolute;
-        height: 100vh;
-        top: 0;
-        right: 0;
-        left: 0;
-        z-index: -1;
-        display: none;
-    }
+   #bg {
+    visibility: hidden;
+    position: absolute;
+    height: 100vh;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: -1;
+    display: none;
+}
 }
 
 
@@ -334,7 +334,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .intro .highlight{
-        background-color: #F3F3F3;
+    background-color: #F3F3F3;
 }
 
 @media (min-width: 768px) {
@@ -362,9 +362,9 @@ fieldset[disabled] .btn-xl.active {
 @media (max-width: 768px){
 
     header {
-    background-position: center;
-    background-image: url('img/static-eyes.png');
-    background-repeat: repeat;
+        background-position: center;
+        background-image: url('img/static-eyes.png');
+        background-repeat: repeat;
     }
 }
 
@@ -463,13 +463,13 @@ fieldset[disabled] .btn-xl.active {
 }
 
 @media (max-width: 768px) {
-.button .top{
-    background-color: #f3f3f3;
-}
+    .button .top{
+        background-color: #f3f3f3;
+    }
 
-.button-bottom {
-    visibility: hidden;
- }
+    .button-bottom {
+        visibility: hidden;
+    }
 }
 
 section {
