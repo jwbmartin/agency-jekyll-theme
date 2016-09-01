@@ -291,7 +291,7 @@ fieldset[disabled] .btn-xl.active {
 
 
 @media (max-width: 768px) {    
-   #bg {
+ #bg {
     visibility: hidden;
     position: absolute;
     height: 100vh;
@@ -306,17 +306,14 @@ fieldset[disabled] .btn-xl.active {
 
 .intro {
     z-index: 100;
-    display: block;
     position: relative;
-    height: 100%;
     padding: 0px 0px;
     text-align: center;
-    bottom:-25%;
+    margin-top: 60px;
 }
 
 .intro .intro-body {
-    display:inline-block;
-
+    display:inline-block; 
 }
 
 .intro .intro-body .brand-heading {
@@ -346,6 +343,7 @@ fieldset[disabled] .btn-xl.active {
         margin-right: auto;
         margin-left: auto;
         display: block;
+        bottom:-25%;
 
     }
 
@@ -362,10 +360,14 @@ fieldset[disabled] .btn-xl.active {
 @media (max-width: 768px){
 
     header {
-        background-position: center;
         background-image: url('img/static-eyes.png');
         background-repeat: repeat;
+        height:100vh;
     }
+    
+    .intro .intro-body .brand-heading {
+      padding-top: 100px;
+  }
 }
 
 .button .top {
