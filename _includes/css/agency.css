@@ -306,9 +306,9 @@ fieldset[disabled] .btn-xl.active {
 
 .intro {
     z-index: 100;
-    display: block;
+    display: flex;
     height: 100%;
-    padding: 100px 0px;
+    padding: 0px 0px;
     text-align: center;
     bottom:-25%;
 }
@@ -341,9 +341,10 @@ fieldset[disabled] .btn-xl.active {
         position: absolute;
         height:100%;
         display: block;
-        padding: 0
-        margin-right: 20%;
-        margin-left: 18%;
+        padding: 0px;
+        margin-right: 28%;
+        margin-left: 28%;
+
     }
 
     .intro .intro-body .brand-heading {
