@@ -280,8 +280,9 @@ fieldset[disabled] .btn-xl.active {
 }
 
  #bg {
-        position: abs;
+
         height: 100vh;
+        width: 100vw;
         top: 0;
         right: 0;
         left: 0;
@@ -290,10 +291,10 @@ fieldset[disabled] .btn-xl.active {
 
 
 
-@media (max-width: 600px) {    
+@media (max-width: 768px) {    
  #bg {
         visibility: hidden;
-        position: abs;
+        position: absolute;
         height: 100vh;
         top: 0;
         right: 0;
@@ -303,89 +304,59 @@ fieldset[disabled] .btn-xl.active {
     }
 }
 
-
-header {
-    min-width: 100vw;
-    min-height: auto;
-    position: relative;
-    text-align: center;
+.intro {
+    z-index: 100;
     display: block;
+    height: 100%;
+    padding: 100px 0px;
+    text-align: center;
+    bottom:-25%;
 }
 
-header .header-content {
-    position: relative;
-    padding: 100px 15px;
-    vertical-align: center;
-    
+.intro .intro-body {
+    display:inline-block;
 }
 
-header .header-content .header-content-inner h1 {
+.intro .intro-body .brand-heading {
   font-weight: 700;
-  text-transform: none;
-  margin-top: 0;
-  margin-bottom: 0;
   font-size: 30px;
   color: #42049B;
+  text-transform: none;
 }
 
-header .header-content .header-content-inner hr {
-  margin: 30px auto;
-}
-
-header .header-content .header-content-inner p {
+.intro .intro-body .intro-text {
   font-family: 'Merriweather', serif;
   font-weight: 400;
   color: #42049B;
   font-size: 19px;
-  margin-bottom: 50px;
+}
+
+.intro .highlight{
+        background-color: #F3F3F3;
 }
 
 @media (min-width: 768px) {
-
-  header {
-    min-height: auto;
-    position: abso;
-    width: auto;
-    text-align: center
-
-  }
-
-  header .header-content {
-    position: absolute;
-    -webkit-transform: translateY(-145%);
-    -ms-transform: translateY(145%);
-    transform: translateY(-145%);
-
-    padding: 0 80px;
- 
-  }
-
-  header .header-content .header-content-inner {
-    display: block;
-   left: 50%;
-    top: 50%; 
-    margin-left: -50px;
-    margin-top: -50px;
-    display: block;
-  }
-
-  header .header-content .header-content-inner h1 {
-    font-size: 50px;
-  }
-
-  header .header-content .header-content-inner p {
-    font-size: 18px;
-    max-width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-    header .header-content .highlight{
-        background-color: #F3F3F3;
+    .intro {
+        z-index: 100;
+        position: absolute;
+        height:100%;
+        display: block;
+        padding: 0
+        margin-right: 20%;
+        margin-left: 18%;
     }
 
+    .intro .intro-body .brand-heading {
+        font-size: 55px
+    }
+
+    .intro .intro-body .intro-text {
+        font-size: 26px
+    }
 }
 
-@media (max-width: 600px){
+
+@media (max-width: 768px){
 
     header {
     background-position: center;
@@ -488,7 +459,11 @@ header .header-content .header-content-inner p {
     right: 21%;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
+.button .top{
+    background-color: #f3f3f3;
+}
+
 .button-bottom {
     visibility: hidden;
  }
@@ -502,6 +477,7 @@ section h2.section-heading {
     margin-top: 0;
     margin-bottom: 15px;
     font-size: 40px;
+    color: #42049B;
 }
 
 section h3.section-subheading {
@@ -511,6 +487,7 @@ section h3.section-subheading {
     font-size: 16px;
     font-style: italic;
     font-weight: 400;
+
 }
 
 @media(min-width:768px) {
@@ -579,6 +556,7 @@ section h3.section-subheading {
 #portfolio .portfolio-item .portfolio-caption h4 {
     margin: 0;
     text-transform: none;
+    color: #42049B;
 }
 
 #portfolio .portfolio-item .portfolio-caption p {
