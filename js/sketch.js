@@ -14,7 +14,7 @@ function draw() {
  	background(243,243,243);
     fill(243, 243, 243);
     stroke(30,247,183);
-    strokeWeight(1);
+    strokeWeight(1.5);
     var dist = 65;
     for (var i = 25; i < width; i+=dist) 
     {
@@ -25,7 +25,7 @@ function draw() {
       }
     }
     fill(30,247,183);
-    strokeWeight (2);
+    strokeWeight(2);
     for (var i = 25; i < width; i+=dist) 
     {
       for (var j = 25; j < height; j+=dist) 
