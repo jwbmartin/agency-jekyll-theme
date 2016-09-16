@@ -36,6 +36,6 @@ $('div.modal').on('show.bs.modal', function() {
 	}
 });
 // loader
-$(window).ready(function() {
+$(window).load(function() {
     $(".loader").fadeOut("slow");
 })

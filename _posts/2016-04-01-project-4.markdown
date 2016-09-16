@@ -1,0 +1,15 @@
+---
+title: Zooniverse
+subtitle: digital
+layout: default
+modal-id: 11
+date: 2016-01-11
+img: ['zooniverse_landing.png']
+thumbnail: zooni-thumb2.png
+alt: image-alt
+project-date: April 2016
+client: Zooniverse.org
+category: digital
+description: UI updates to Zooniverse.org, a joint Adler Planetarium and Oxford University citizen science platform, Project Builder landing pages. The new design encourages comminuty involvement and allows the volunteers a quick glimpse at up-to-date  activties occuring with a given project and the project's reasearch team.
+
+---
