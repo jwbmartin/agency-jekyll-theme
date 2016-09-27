@@ -10,6 +10,5 @@ alt: image-alt
 project-date: September 2014
 client: Design Bureau Magazine
 category: digital
-description: A brief look at the translation of the print version to the ipad-optimized digital publication I did for <a href="http://www.wearedesignbureau.com/">Design Bureau Magazine</a>
-
+description: A brief look at the translation of the print version to the ipad-optimized digital publication done for <a href="http://www.wearedesignbureau.com/">Design Bureau Magazine</a>
 ---

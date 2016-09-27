@@ -326,7 +326,7 @@ fieldset[disabled] .btn-xl.active {
   font-family: 'Merriweather', serif;
   font-weight: 400;
   color: #42049B;
-  font-size: 19px;
+  font-size: 18px;
 }
 
 .intro .highlight{
@@ -650,8 +650,9 @@ ul.social-buttons li a:active {
 
 .portfolio-modal .modal-content p {
     font-family: 'Merriweather', serif;
-    margin-bottom: 30px;
-    font-size: 17px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    font-size: 18px;
 }
 
 .portfolio-modal .modal-content p.item-intro {
@@ -665,7 +666,7 @@ ul.social-buttons li a:active {
 }
 
 .portfolio-modal .modal-content img {
-    margin-top: 10px;
+    margin-top: 5px;
     margin-bottom: 40px;
 }
 
