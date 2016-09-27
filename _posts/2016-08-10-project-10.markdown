@@ -4,7 +4,7 @@ subtitle: digital
 layout: default
 modal-id: 10
 date: 2016-01-07
-img: ['NfNScreen.png']
+img: ['NfNScreen.jpg']
 thumbnail: NfNScreen-thumb.jpg
 alt: image-alt
 project-date: Aug 2016
