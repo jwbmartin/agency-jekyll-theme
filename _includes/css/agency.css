@@ -6,7 +6,7 @@
 
  body {
     overflow-x: hidden;
-    font-family: 'Montserrat',"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #{{ site.data.template.color.secondary-dark }};
 }
 
@@ -19,17 +19,17 @@
 }
 
 p {
-    font-size: 16px;
+    font-size: 18px;
     line-height: 1.75;
 }
 
 br {
-    font-size: 16px;
+    font-size: 18px;
     line-height: 1.75;
 }
 
 p.large {
-    font-size: 16px;
+    font-size: 20px;
 }
 
 a,
@@ -49,7 +49,7 @@ a:hover,
 a:focus,
 a:active,
 a.active {
-    color: #ED225D;
+    color: #000;
     text-decoration: none;
 }
 
@@ -178,12 +178,12 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default {
     border-color: transparent;
-    background-color: #42049B;
+    background-color: transparent;
 }
 
 .navbar-default .navbar-brand {
     letter-spacing: 1px;
-    font-family: 'Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif'
+    font-family: 'Montserrat', sans-serif;
     color: #FFF;
 }
 
@@ -223,17 +223,17 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
     outline: 0;
-    color: #ED225D;
+    color: #000;
 }
 
 .navbar-default .navbar-nav>.active>a {
     border-radius: 0;
-    color: #ED225D;
+    color: #000;
 }
 
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
-    color: #ED225D;
+    color: #000;
 }
 
 @media(min-width:768px) {
@@ -279,6 +279,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 #bg {
+    background: #42049B;
     height: 100vh;
     width: 100vw;
     top: 0;
@@ -291,23 +292,22 @@ fieldset[disabled] .btn-xl.active {
 
 @media (max-width: 768px) {    
  #bg {
-    visibility: hidden;
+    background: #42049B;
     position: absolute;
     height: 100vh;
     top: 0;
     right: 0;
     left: 0;
     z-index: -1;
-    display: none;
 }
 }
 
 
 .intro {
     z-index: 100;
-    position: relative;
+    position: absolute;
     padding: 0px 0px;
-    text-align: center;
+    text-align: left;
     margin-top: 60px;
 }
 
@@ -318,19 +318,19 @@ fieldset[disabled] .btn-xl.active {
 .intro .intro-body .brand-heading {
   font-weight: 700;
   font-size: 30px;
-  color: #42049B;
+  color: #1ff7b7;
   text-transform: none;
 }
 
 .intro .intro-body .intro-text {
-  font-family: 'Merriweather', serif;
+  font-family: 'PT Serif', serif;
   font-weight: 400;
-  color: #42049B;
-  font-size: 18px;
+  color: #fff;
+  font-size: 22px;
 }
 
 .intro .highlight{
-    background-color: #F3F3F3;
+    background-color: #42049B;
 }
 
 @media (min-width: 768px) {
@@ -357,13 +357,6 @@ fieldset[disabled] .btn-xl.active {
 
 
 @media (max-width: 768px){
-
-    header {
-        background-image: url('img/static-eyes.png');
-        background-repeat: repeat;
-        height:100vh;
-    }
-    
     .intro .intro-body .brand-heading {
       padding-top: 100px;
   }
@@ -375,7 +368,7 @@ fieldset[disabled] .btn-xl.active {
     position: relative;
     background-color: transparent;
     padding: 18px 20px 18px 20px;
-    border: 2px solid #42049B;
+    border: 2px solid #fff;
     display: inline-block;
 
 }
@@ -386,7 +379,7 @@ fieldset[disabled] .btn-xl.active {
 
 .button .top .label {
     font-weight: 700;
-    color: #42049B;
+    color: #fff;
     font-size: 16px;
     line-height: 110%;
     letter-spacing: 1px;
@@ -403,12 +396,12 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .button:hover .top .label {
-    color: #ED225D
+    color: #1ff7b7
 }
 
 .button-border {
     position: absolute;
-    background-color: #ED225D;
+    background-color: #1ff7b7;
     -webkit-transition: all .25s ease-out;
     -moz-transition: all .25s ease-out;
     -o-transition: all .25s ease-out;
@@ -451,27 +444,6 @@ fieldset[disabled] .btn-xl.active {
     height: 4px
 }
 
-.button-bottom {
-    margin: auto;
-    z-index: 96;
-    position: absolute;
-    background-color: #1EF7B7;
-    height: 60px;
-    width:190px;
-    border:  none;
-    left:37%;
-    top:75%;
-}
-
-@media (max-width: 768px) {
-    .button .top{
-        background-color: #f3f3f3;
-    }
-
-    .button-bottom {
-        visibility: hidden;
-    }
-}
 
 section {
     padding: 100px 0;
@@ -481,7 +453,7 @@ section h2.section-heading {
     margin-top: 0;
     margin-bottom: 15px;
     font-size: 40px;
-    color: #42049B;
+
 }
 
 section h3.section-subheading {
@@ -560,12 +532,13 @@ section h3.section-subheading {
 #portfolio .portfolio-item .portfolio-caption h4 {
     margin: 0;
     text-transform: none;
-    color: #42049B;
 }
 
 #portfolio .portfolio-item .portfolio-caption p {
     margin: 0;
     font-size: 16px;
+    font-family: 'PT Serif', serif;
+
 }
 
 #portfolio * {
@@ -637,7 +610,7 @@ ul.social-buttons li a:active {
     min-height: 100%;
     border: 0;
     border-radius: 0;
-    text-align: center;
+    text-align: left;
     background-clip: border-box;
     -webkit-box-shadow: none;
     box-shadow: none;
@@ -649,10 +622,10 @@ ul.social-buttons li a:active {
 }
 
 .portfolio-modal .modal-content p {
-    font-family: 'Merriweather', serif;
+    font-family: 'PT Serif', serif;
     font-weight: 400;
     margin-bottom: 20px;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .portfolio-modal .modal-content p.item-intro {
