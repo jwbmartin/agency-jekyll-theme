@@ -75,7 +75,7 @@ function siteTitleFun(e) {
     t.$elem = e,
     t._currentText = e.text(),
     t._finalText = e.text(),
-    t._randomChars = "Jordan Whitney Martin s  mulcp g☺☼☽✈✍✎□☹♀",
+    t._randomChars = "Jordan Whitney Martin s  mulcp g☺☼☽✈✍✎☹♀",
     t.addChar = function() {
         t._currentText = t.randomize(),
         t.$elem.text(t._currentText),
