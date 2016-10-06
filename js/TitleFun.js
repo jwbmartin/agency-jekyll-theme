@@ -75,13 +75,13 @@ function siteTitleFun(e) {
     t.$elem = e,
     t._currentText = e.text(),
     t._finalText = e.text(),
-    t._randomChars = "Jordan Whitney Martin is a multidisciplinary designer and artist_-)(=#*/@<>1278cbg",
+    t._randomChars = "Jordan Whitney Martin s  mulcp g☺☼☽✈✍✎□☹♀",
     t.addChar = function() {
         t._currentText = t.randomize(),
         t.$elem.text(t._currentText),
         t._currentText !== t._finalText && setTimeout(function() {
             t.addChar()
-        }, 20)
+        }, 22)
     }
     ,
     t.randomize = function(e) {
