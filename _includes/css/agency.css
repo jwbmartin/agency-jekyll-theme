@@ -291,13 +291,13 @@ fieldset[disabled] .btn-xl.active {
 
 
 @media (max-width: 768px) {    
- #bg {
+   #bg {
     background: #42049B;
     height: 100vh;
     right: 0;
     left: 0;
     z-index: -1;
- }
+}
 }
 
 
