@@ -3,7 +3,7 @@ title: Zooniverse
 subtitle: digital
 layout: default
 modal-id: 4
-date: 2016-01-08
+date: 2016-01-11
 img: ['PFE_UI.gif']
 thumbnail: zooni-thumb.png
 alt: image-alt

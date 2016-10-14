@@ -3,7 +3,7 @@ title: The Drake Equation
 subtitle: digital
 layout: default
 modal-id: 1
-date: 2016-01-05
+date: 2016-01-07
 img: ['drake-ipad.gif' , 'DrakeIMG-01.JPG' , 'DrakeIMG-02.JPG']
 thumbnail: drake-thumb.jpg
 alt: image-alt

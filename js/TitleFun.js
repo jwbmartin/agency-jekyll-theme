@@ -7,67 +7,9 @@ function registerTransition(e, t) {
     t.opacity = 0),
     $.Velocity.RegisterUI(e, {
         defaultDuration: r,
-        calls: [[t, aniDuration / 1e3, {
+        calls: [[t, aniDuration / 3e3, {
             easing: n
         }]]
-    })
-}
-function changeEventInfo(e, t, n) {
-    if (!Sidebar.isAnimating()) {
-        if (!stateHandler.supported())
-            return void (window.location = e.children("a").attr("href"));
-        Sidebar.isOpen() && Sidebar.animClose(e);
-        var r = $(t[t.index(e) - 1])
-          , i = $(t[t.index(e) + 1])
-          , a = $(".js-event-next-prev");
-        a.html(""),
-        r.length && ($eventPrev = $('<a href="" class="nav-arrows--arrow"><img src="/assets/img/arrow-left.svg" alt="Previous"></a>'),
-        a.append($eventPrev),
-        $eventPrev.on("click touch", function(e) {
-            e.preventDefault(),
-            r.trigger("click")
-        })),
-        i.length && ($eventNext = $('<a href="#" class="nav-arrows--arrow"><img src="/assets/img/arrow-right.svg" alt="Next"></a>'),
-        a.append($eventNext),
-        $eventNext.on("click touch", function(e) {
-            e.preventDefault(),
-            i.trigger("click")
-        }));
-        var o = e.children("a").attr("href");
-        setEventDetails(o + ".json", function(t) {
-            n || stateHandler.push({
-                url: o,
-                title: t.title + " – See&Do",
-                eventId: e.attr("id")
-            })
-        }),
-        $(".event--active").removeClass("event--active"),
-        e.addClass("event--active")
-    }
-}
-function setEventDetails(e, t) {
-    $.getJSON(e, function(e) {
-        $(".event-info--title").html(e.title),
-        $(".js-event-info-date").html(e.longDates),
-        $(".js-event-info-time").html(e.times),
-        $(".js-event-info-venue").html(e.venue),
-        $(".js-event-info-user").html('<a href="/' + $(location).prop("pathname").split("/")[1] + "/users/" + e.user.slug + '">' + e.user.username + "</a>"),
-        $(".js-event-info-fb").attr("href", "https://www.facebook.com/sharer/sharer.php?u=" + encodeURI(e.url)),
-        $(".js-event-info-twitter").attr("href", "https://twitter.com/home?status=" + encodeURI(e.title + " " + e.url)),
-        $(".js-edit-event").attr("href", encodeURI(e.url + "/edit")),
-        null != e.more_info ? $(".js-event-info-wrapper").html('<a href="' + e.more_info + '" target="_blank">More Info</a>') : $(".js-event-info-wrapper").html(""),
-        $(".event-info .body-copy").html("<p>" + e.parsedContent + "</p>");
-        var n;
-        n = ".event-background-color { background: " + e.color_scheme.color_1 + "; fill: " + e.color_scheme.color_1 + ";}",
-        n += ".event-primary-color { color: " + e.color_scheme.color_2 + "; fill: " + e.color_scheme.color_2 + ";}",
-        n += ".event-secondary-color { color: " + e.color_scheme.color_3 + "; fill: " + e.color_scheme.color_3 + ";}",
-        n += ".event-info .body-copy a, .event-info .meta-data a { color: " + e.color_scheme.color_3 + ";}",
-        n += ".event-info .js-event-info-wrapper a { color: " + e.color_scheme.color_3 + ";}",
-        n += ".event-info .event-info--share a:hover { color: " + e.color_scheme.color_3 + ";}",
-        $("#js-event-color-scheme").remove(),
-        $('<style id="js-event-color-scheme" type="text/css">' + n + "</style>").appendTo("head"),
-        Sidebar.animOpen(),
-        t && t(e)
     })
 }
 function siteTitleFun(e) {
@@ -81,7 +23,7 @@ function siteTitleFun(e) {
         t.$elem.text(t._currentText),
         t._currentText !== t._finalText && setTimeout(function() {
             t.addChar()
-        }, 22)
+        }, 30)
     }
     ,
     t.randomize = function(e) {
