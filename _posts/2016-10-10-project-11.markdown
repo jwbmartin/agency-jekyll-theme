@@ -1,0 +1,15 @@
+---
+title: Team Stratonauts
+subtitle: identity & digital
+layout: default
+modal-id: 12
+date: 2016-01-12
+img: ['stratonauts-01.jpg' , 'stratonauts-02.jpg' , 'stratonauts_page02.jpg' , 'stratonauts_page01.jpg' , 'stratonauts-12.jpg' , 'stratonauts-process.JPG'  ]
+thumbnail: stratonauts_thumb.jpg
+alt: image-alt
+project-date: Aug 2016
+client: The Adler Planetarium
+category: identity & digital
+description: Team Stratonauts is a teen focused, curiosity driven cohort of high school aged space pioneers that is part of the Far Horizons Program. The identity is simple, illustrative, and reminds people of the classic hay-day of space travel—sputnik, the moon landing, the space station. It feels fast, it feels impactful. It’s stratospheric curves and lines are visually intuitive, and reference years of science fiction and reality.
+
+---
