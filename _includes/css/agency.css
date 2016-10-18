@@ -289,18 +289,6 @@ fieldset[disabled] .btn-xl.active {
 }
 
 
-
-@media (max-width: 768px) {    
-   #bg {
-    background: #42049B;
-    height: 100vh;
-    right: 0;
-    left: 0;
-    z-index: -1;
-}
-}
-
-
 .intro {
     z-index: 100;
     position: absolute;
@@ -339,7 +327,7 @@ fieldset[disabled] .btn-xl.active {
         width: 100%;
         margin-right: auto;
         margin-left: auto;
-        display: block;
+      
         bottom:-15%;
 
     }
