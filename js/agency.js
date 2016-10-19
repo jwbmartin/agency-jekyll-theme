@@ -35,7 +35,6 @@ $('div.modal').on('show.bs.modal', function() {
 		}
 	}
 });
-//
 $(window).load(function() {
 $(".loader").fadeOut("slow");
-})
+});
