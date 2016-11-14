@@ -3,7 +3,7 @@ title: F newsmagazine
 subtitle: print
 layout: default
 modal-id: 8
-date: 2016-01-05
+date: 2016-01-04
 img: ['fnewmarch.jpg', 'charliespread1.jpg', 'charliespread2.jpg']
 thumbnail: fnews-thumb.JPG
 alt: image-alt

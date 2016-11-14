@@ -1,14 +1,14 @@
 ---
-title: Design Bureau Magazine
+title: Bee Spotter
 subtitle: digital
 layout: default
 modal-id: 5
-date: 2016-01-03
-img: ['DB_ipad.gif']
-thumbnail: db-thumb.jpg
+date: 2016-01-09
+img: ['Bee_Wireframe.jpg', 'beespotter.jpg']
+thumbnail: beespotter_thumb.png
 alt: image-alt
-project-date: September 2014
-client: Design Bureau Magazine
+project-date: November 2016
+client: Beespotter.org
 category: digital
-description: A brief look at the translation of the print version to the ipad-optimized digital publication done for <a href="http://www.wearedesignbureau.com/">Design Bureau Magazine</a>
+description: BeeSpotter is a partnership between citizen-scientists and the professional science community. The app was designed to educate the public about pollinators by engaging them in an image data collection effort to get a better understanding of local bee demographics.
 ---

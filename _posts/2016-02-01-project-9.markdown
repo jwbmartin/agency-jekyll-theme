@@ -3,7 +3,7 @@ title: CPU to EDU
 subtitle: digital
 layout: default
 modal-id: 9
-date: 2016-01-09
+date: 2016-01-08
 img: ['CPUtoEDU-01.jpg' , 'CPUtoEDU-02.jpg']
 thumbnail: CPUEDU-thumb.jpg
 alt: image-alt

@@ -3,7 +3,7 @@ title: Zooniverse
 subtitle: digital
 layout: default
 modal-id: 11
-date: 2016-01-08
+date: 2016-01-07
 img: ['zooniverse_landing.jpg']
 thumbnail: zooni-thumb2.png
 alt: image-alt
