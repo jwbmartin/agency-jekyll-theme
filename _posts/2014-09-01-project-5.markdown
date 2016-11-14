@@ -3,7 +3,7 @@ title: Bee Spotter
 subtitle: digital
 layout: default
 modal-id: 5
-date: 2016-01-09
+date: 2016-01-11
 img: ['Bee_Wireframe.jpg', 'beespotter.jpg']
 thumbnail: beespotter_thumb.png
 alt: image-alt
