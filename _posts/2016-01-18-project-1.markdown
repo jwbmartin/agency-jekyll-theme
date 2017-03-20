@@ -1,6 +1,6 @@
 ---
 title: Canopy Cannabis Co.
-subtitle: digital
+subtitle: identity
 layout: default
 modal-id: 1
 date: 2016-01-08
