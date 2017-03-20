@@ -4,7 +4,7 @@ subtitle: digital
 layout: default
 modal-id: 1
 date: 2016-01-08
-img: ['canopy_logotype.png' , 'PackagingMockUp-Canopy.jpg' , 'posterptoyo-canopy.jpg']
+img: ['canopy_logotype.png' , 'PackagingMockUp-Canopy.jpg' , 'posterproto-canopy.jpg']
 thumbnail: canopy_thumb.png
 alt: image-alt
 project-date: February 2017
