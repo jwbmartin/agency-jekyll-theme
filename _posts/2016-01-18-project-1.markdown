@@ -5,11 +5,11 @@ layout: default
 modal-id: 1
 date: 2016-01-08
 img: ['canopy_logotype.png' , 'PackagingMockUp-Canopy.jpg' , 'posterptoyo-canopy.jpg']
-thumbnail: canopy-thumb.png
+thumbnail: canopy_thumb.png
 alt: image-alt
-project-date: January 2016
-client: The Adler Planetarium
-category: digital
+project-date: February 2017
+client: MD Cannabis
+category: identity
 description: Canopy Cannabis Co. started with a few core elements, a spirit of hard-work and a passion, with an unyielding attention to hand hewn details. It pays homage to the overarching love and labor that goes into making a top quality product. The overall tone of Canopy Cannabis Co. is conversational, straightforward, and honest with a strong desire to focus on what people need. It is open-minded but not empty-headed. Canopy Cannabis Co. is old school but not high school. 
 
 ---
