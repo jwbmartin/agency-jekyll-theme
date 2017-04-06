@@ -4,11 +4,12 @@ subtitle: digital
 layout: default
 modal-id: 11
 date: 2016-01-07
-img: ['zooniverse_landing.jpg']
-thumbnail: zooni-thumb2.png
+img: ['zooniverse_landing.jpg' , 'PFE_UI.gif']
+thumbnail: zooni-thumb.png
 alt: image-alt
 project-date: April 2016
 client: Zooniverse.org
 category: digital
-description: UI updates to Zooniverse.org, a joint Adler Planetarium and Oxford University citizen science platform, Project Builder landing pages. The new design encourages community involvement and allows the volunteers a quick glimpse at up-to-date  activities occurring with a given project and the project's research team.
+description: UI updates to Zooniverse.org, a joint Adler Planetarium and Oxford University citizen science platform, Project Builder landing pages. The new design encourages community involvement and allows the volunteers a quick glimpse at up-to-date  activities occurring with a given project and the project's research team. he former design for the Zooniverse Project Builder platform had a bloated and overwhelming navigation where Zooniverse.org primary navigation was layered on top of each individual project's own navigation. But by condensing the navigation system down it becomes approachable and to the user and reinforces Zooniverse as a holistic and persistent identity.
+
 ---

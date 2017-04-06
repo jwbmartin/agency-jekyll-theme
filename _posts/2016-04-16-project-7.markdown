@@ -1,15 +1,15 @@
 ---
-title: Zooniverse
+title: Google Fiber
 subtitle: digital
 layout: default
 modal-id: 4
-date: 2016-01-09
-img: ['PFE_UI.gif']
-thumbnail: zooni-thumb.png
+date: 2016-01-12
+img: ['fiber-mobile.jpg' , 'fast-01.png' ,'fiber-desktop.jpg' , 'superfast-01.png' , 'fiber-emailer.jpg' , 'rocketdog-01.png' , 'fiber-process.jpg']
+thumbnail: fiber-thumb.png
 alt: image-alt
-project-date: April 2016
-client: Zooniverse.org
+project-date: April 2017
+client: fiber.google.com
 category: digital
-description: UX and UI updates to Zooniverse.org, a joint Adler Planetarium and Oxford University citizen science platform. The former design for the Zooniverse Project Builder platform had a bloated and overwhelming navigation where Zooniverse.org primary navigation was layered on top of each individual project's own navigation. But by condensing the navigation system down it becomes approachable and to the user and reinforces Zooniverse as a holistic and persistent identity.
+description: Google Fiber came to us asking if we could find a way to design an experience that increased customer signup and customer recognition in their existing markets. As I worked with the Fiber team, I wanted to find a way to leverage the love of Google's brand and highlight Google Fiber's unyielding dedication to providing the best customer service of any internet provider. Together we created several variations of pricing options, social proofing modules, and digital emailer campaigns to increase Google Fiber's impact.
 
 ---

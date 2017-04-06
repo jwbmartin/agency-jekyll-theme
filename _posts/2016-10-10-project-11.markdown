@@ -3,7 +3,7 @@ title: Team Stratonauts
 subtitle: identity & digital
 layout: default
 modal-id: 12
-date: 2016-01-12
+date: 2016-01-08
 img: ['stratonauts-01.jpg' , 'stratonauts-02.jpg' , 'stratonauts_page02.jpg' , 'stratonauts_page01.jpg' , 'stratonauts-12.jpg' , 'stratonauts-process.JPG'  ]
 thumbnail: stratonauts_thumb.jpg
 alt: image-alt
