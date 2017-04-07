@@ -3,7 +3,7 @@ title: Canopy Cannabis Co.
 subtitle: identity
 layout: default
 modal-id: 1
-date: 2016-01-12
+date: 2016-01-10
 img: ['canopy_logotype.png' , 'PackagingMockUp-Canopy.jpg' , 'posterproto-canopy.jpg']
 thumbnail: canopy_thumb.png
 alt: image-alt
