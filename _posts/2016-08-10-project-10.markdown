@@ -3,7 +3,7 @@ title: Notes from Nature
 subtitle: digital
 layout: default
 modal-id: 10
-date: 2016-01-06
+date: 2016-01-05
 img: ['NfNScreen.jpg']
 thumbnail: NfNScreen-thumb.jpg
 alt: image-alt
