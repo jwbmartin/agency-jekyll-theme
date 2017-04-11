@@ -1,5 +1,5 @@
 ---
-title: Bee Spotter
+title: BeeSpotter
 subtitle: digital
 layout: default
 modal-id: 5
