@@ -4,7 +4,7 @@ subtitle: digital
 layout: default
 modal-id: 4
 date: 2016-01-12
-img: ['fiber-mobile.jpg' , 'fast-01.png' ,'fiber-desktop.jpg' , 'superfast-01.png' , 'fiber-emailer.jpg' , 'rocketdog-01.png' , 'fiber-process.jpg']
+img: ['fiber-mobile.jpg' , 'fast-01.png' ,'fiber-desktop.jpg' , 'superfast-01.png' ,  'fiber-process.jpg' , 'rocketdog-01.png']
 thumbnail: fiber-thumb.png
 alt: image-alt
 project-date: April 2017
