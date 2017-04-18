@@ -4,12 +4,12 @@ subtitle: digital
 layout: default
 modal-id: 4
 date: 2016-01-12
-img: ['fiber-mobile.jpg' , 'fast-01.png' ,'fiber-desktop.jpg' , 'superfast-01.png' ,  'fiber-process.jpg' , 'rocketdog-01.png']
+img: [ 'fiber-03.jpg']
 thumbnail: fiber-thumb.png
 alt: image-alt
 project-date: April 2017
 client: fiber.google.com
 category: digital
-description: Google Fiber came to us asking if we could find a way to design an experience that increased customer signup and customer recognition in their existing markets. As I worked with the Fiber team, I wanted to find a way to leverage the love of Google's brand and highlight Google Fiber's unyielding dedication to providing the best customer service of any internet provider. Working closely with Google Fiber's marketing team, I created several variations of pricing options, social proofing modules, and digital emailer campaigns for desktop and mobile which resulted in increasing Google Fiber's total signup by 14% and total conversion rate of 15%.
+description: Google Fiber came to us asking if we could find a way to design an experience that increased customer signup and customer recognition in their existing markets. As I worked with the Fiber team, I wanted to find a way to leverage the love of Google's brand and highlight Google Fiber's unyielding dedication to providing the best customer service of any internet provider. Working closely with Google Fiber's marketing team, I created several variations of pricing options, social proofing modules, and digital emailer campaigns for desktop and mobile.
 
 ---
