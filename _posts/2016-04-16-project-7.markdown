@@ -4,7 +4,7 @@ subtitle: digital
 layout: default
 modal-id: 4
 date: 2016-01-12
-img: [ 'fiber-03.jpg']
+img: [ 'fiberphone.jpg']
 thumbnail: fiber-thumb.png
 alt: image-alt
 project-date: April 2017
