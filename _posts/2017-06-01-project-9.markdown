@@ -5,7 +5,7 @@ layout: default
 modal-id: 8
 date: 2016-01-08
 img: ['logo.jpg' , 'zp-02.jpg']
-thumbnail: zplogo_thumb.JPG
+thumbnail: zplogo_thumb.jpg
 alt: image-alt
 project-date: 2017
 client: Zealous Press
