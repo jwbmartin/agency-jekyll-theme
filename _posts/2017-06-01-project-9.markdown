@@ -1,0 +1,15 @@
+---
+title: Zealous Press
+subtitle: print
+layout: default
+modal-id: 8
+date: 2016-01-08
+img: ['logo.jpg' , 'zp-02.jpg']
+thumbnail: zplogo_thumb.JPG
+alt: image-alt
+project-date: 2017
+client: Zealous Press
+category: identity
+description: Identity and ecommerce landing page for the alternative, independent publishing house, Zealous Press.</a>
+
+---

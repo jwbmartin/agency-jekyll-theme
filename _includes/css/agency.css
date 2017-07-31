@@ -61,7 +61,7 @@ h5,
 h6 {
     text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
-    font-weight: 700;
+    font-weight: 400;
 }
 
 .img-centered {
@@ -91,7 +91,7 @@ h6 {
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
     border-color: #{{ site.data.template.color.primary }};
-    color: #fff;
+    color: #4E29FE;
     background-color: #{{ site.data.template.color.secondary }};
 }
 
@@ -184,7 +184,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-brand {
     letter-spacing: 1px;
     font-family: 'Montserrat', sans-serif;
-    color: #FFF;
+    color: #4e29fe;
 }
 
 .navbar-default .navbar-brand:hover,
@@ -204,7 +204,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-    background-color: #fff;
+    background-color: #4e29fe;
 }
 
 .navbar-default .navbar-toggle:hover,
@@ -217,7 +217,7 @@ fieldset[disabled] .btn-xl.active {
     font-family: {{ site.data.template.font.primary }};
     font-weight: 400;
     letter-spacing: 1px;
-    color: #FFF;
+    color: #4e29fe;
 }
 
 .navbar-default .nav li a:hover,
@@ -240,7 +240,7 @@ fieldset[disabled] .btn-xl.active {
     .navbar-default {
         padding: 10px 0;
         border: 0;
-        background-color: #42049B;
+        background-color: #FFFFFF;
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
@@ -260,7 +260,7 @@ fieldset[disabled] .btn-xl.active {
 
     .navbar-shrink {
         padding: 01px 0;
-        background-color: #1ff7b7;
+        background-color: #4e20fe;
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
@@ -280,7 +280,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 #bg {
-    background: #42049B;
+    background: #FFFFFF;
     height: 100vh;
     width: 100vw;
     right: 0;
@@ -302,21 +302,21 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .intro .intro-body .brand-heading {
-  font-weight: 400;
+  font-weight: 200;
   font-size: 30px;
-  color: #1ff7b7;
+  color: #4e29fe;
   text-transform: none;
 }
 
 .intro .intro-body .intro-text {
   font-family: 'PT Serif', serif;
-  font-weight: 400;
+  font-weight: 200;
   color: #fff;
   font-size: 22px;
 }
 
 .intro .highlight{
-    background-color: #42049B;
+    background-color: #FFFFFF;
 }
 
 @media (min-width: 768px) {
@@ -352,20 +352,20 @@ fieldset[disabled] .btn-xl.active {
     margin: 20px auto;
     z-index: 98;
     position: relative;
-    background-color: transparent;
+    background-color: #f3f3f3;
     padding: 18px 20px 18px 20px;
-    border: 2px solid #fff;
+    border: 2.45px solid #4e29fe;
     display: inline-block;
 
 }
 
 .button-dark .top {
-    border: 2px solid #42049B;
+    border: 2px solid #4e29fe;
 }
 
 .button .top .label {
     font-weight: 700;
-    color: #fff;
+    color: #4e29fe;
     font-size: 16px;
     line-height: 110%;
     letter-spacing: 1px;
@@ -377,17 +377,13 @@ fieldset[disabled] .btn-xl.active {
     transition: all .15s ease-out
 }
 
-.button-dark .top .label {
-    color: transparent;
-}
-
 .button:hover .top .label {
-    color: #1ff7b7
+    color: #000;
 }
 
 .button-border {
     position: absolute;
-    background-color: #1ff7b7;
+    background-color: #000;
     -webkit-transition: all .25s ease-out;
     -moz-transition: all .25s ease-out;
     -o-transition: all .25s ease-out;
@@ -428,6 +424,7 @@ fieldset[disabled] .btn-xl.active {
     bottom: -2px;
     width: 0;
     height: 4px
+
 }
 
 
