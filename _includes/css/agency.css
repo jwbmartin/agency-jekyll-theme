@@ -184,6 +184,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-brand {
     letter-spacing: 1px;
     font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
     color: #4e29fe;
 }
 
@@ -195,12 +196,12 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-collapse {
-    border-color: rgba(31,247,183,.02);
+    border-color: transparent;
 }
 
 .navbar-default .navbar-toggle {
     border-color: #{{ site.data.template.color.primary }};
-    background-color: #000;
+    background-color: transparent;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -222,13 +223,12 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
-    outline: 0;
-    color: #000;
+    color: #f3f3f3;
 }
 
 .navbar-default .navbar-nav>.active>a {
     border-radius: 0;
-    color: #000;
+    color: #f3f3f3;
 }
 
 .navbar-default .navbar-nav>.active>a:hover,
@@ -260,12 +260,12 @@ fieldset[disabled] .btn-xl.active {
 
     .navbar-shrink {
         padding: 01px 0;
-        background-color: #4e20fe;
+        background-color: #FFF;
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
         font-size: 1.3em;
-        color: #FFF;
+        color: #4e29fe;
     }
 }
 
@@ -279,19 +279,11 @@ fieldset[disabled] .btn-xl.active {
     background: url('img/eyeloader.gif') 50% 50% no-repeat rgb(249,249,249);
 }
 
-#bg {
-    background: #FFFFFF;
-    height: 100vh;
-    width: 100vw;
-    right: 0;
-    left: 0;
-    z-index: -1;
-}
 
 
 .intro {
     z-index: 100;
-    position: absolute;
+    position: relative;
     padding: 0px 10px 0px 10px;
     text-align: left;
     margin-top: 60px;
@@ -308,16 +300,6 @@ fieldset[disabled] .btn-xl.active {
   text-transform: none;
 }
 
-.intro .intro-body .intro-text {
-  font-family: 'PT Serif', serif;
-  font-weight: 200;
-  color: #fff;
-  font-size: 22px;
-}
-
-.intro .highlight{
-    background-color: #FFFFFF;
-}
 
 @media (min-width: 768px) {
     .intro {
@@ -342,20 +324,15 @@ fieldset[disabled] .btn-xl.active {
 }
 
 
-@media (max-width: 768px){
-    .intro .intro-body .brand-heading {
-      padding-top: 100px;
-  }
-}
-
 .button .top {
     margin: 20px auto;
     z-index: 98;
     position: relative;
-    background-color: #f3f3f3;
+    background-color: #fff;
     padding: 18px 20px 18px 20px;
     border: 2.45px solid #4e29fe;
     display: inline-block;
+    margin: 10px 0px 100px 100px;
 
 }
 
