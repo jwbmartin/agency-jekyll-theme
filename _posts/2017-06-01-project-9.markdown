@@ -2,8 +2,8 @@
 title: Zealous Press
 subtitle: identity
 layout: default
-modal-id: 8
-date: 2016-01-08
+modal-id: 7
+date: 2016-01-07
 img: ['logo.jpg' , 'zp-02.jpg']
 thumbnail: zplogo_thumb.jpg
 alt: image-alt

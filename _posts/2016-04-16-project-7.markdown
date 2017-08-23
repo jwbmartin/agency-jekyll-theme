@@ -3,7 +3,7 @@ title: Google Fiber
 subtitle: digital
 layout: default
 modal-id: 4
-date: 2016-01-07
+date: 2016-01-04
 img: [ 'fiber-03.jpg']
 thumbnail: fiber-thumb.png
 alt: image-alt

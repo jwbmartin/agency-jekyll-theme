@@ -2,8 +2,8 @@
 title: Vivint Smart Home
 subtitle: mobile
 layout: default
-modal-id: 4
-date: 2016-01-07
+modal-id: 6
+date: 2016-01-06
 img: [ 'vivint_phones.jpg']
 thumbnail: vivint-thumb.png
 alt: image-alt
