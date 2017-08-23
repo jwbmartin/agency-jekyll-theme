@@ -1,6 +1,6 @@
 ---
 title: Zealous Press
-subtitle: print
+subtitle: identity
 layout: default
 modal-id: 8
 date: 2016-01-08

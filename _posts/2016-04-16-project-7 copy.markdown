@@ -1,0 +1,15 @@
+---
+title: Google Fiber
+subtitle: digital
+layout: default
+modal-id: 5
+date: 2016-01-07
+img: [ 'fiber-03.jpg']
+thumbnail: fiber-thumb.png
+alt: image-alt
+project-date: April 2017
+client: fiber.google.com
+category: digital
+description: Google Fiber came to us asking if we could find a way to design an experience that increased customer signup and customer recognition in their existing markets. As I worked with the Fiber team, I wanted to find a way to leverage the love of Google's brand and highlight Google Fiber's unyielding dedication to providing the best customer service of any internet provider. 
+
+---

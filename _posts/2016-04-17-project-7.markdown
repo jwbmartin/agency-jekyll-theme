@@ -1,0 +1,14 @@
+---
+title: Vivint Smart Home
+subtitle: mobile
+layout: default
+modal-id: 4
+date: 2016-01-07
+img: [ 'vivint_phones.jpg']
+thumbnail: vivint-thumb.png
+alt: image-alt
+project-date: April 2017
+client: fiber.google.com
+category: digital
+description: My role for this project with Vivint was designing and concepting the mobile-first UI for Vivint's first ecommerce and product experience. Within both mobile experience (iOS/Android) and web platforms, I led design in thinking of a significant portion of the UI and worked directly with cross-functional and development teams. <p><p style="color:#95a5a6;"><i>More samples of UI design for Vivint is available upon request.</i></a></p> 
+---
