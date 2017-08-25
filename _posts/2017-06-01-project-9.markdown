@@ -10,6 +10,6 @@ alt: image-alt
 project-date: 2017
 client: Zealous Press
 category: identity
-description: Identity and ecommerce landing page for the alternative, independent publishing house, Zealous Press.</a>
+description: An identity and ecommerce landing page for the alternative, independent publishing house, Zealous Press. While I am used to getting words such as "bold" or "quality" when I ask clients to define their company, I wasn't prepared for anything like "absurd" or "pataphysical" as brand characteristics. So, I wanted to create an identity that would flip your perceptions and be something that you could feel (or maybe even smell), and would embody Zealous Press goal to be a publishing house that embraces eclectic and eccentric stories. 
 
 ---
