@@ -4,7 +4,7 @@ subtitle: identity
 layout: default
 modal-id: 7
 date: 2016-01-07
-img: ['zp_logo2.jpg' , 'zp-02.jpg']
+img: ['zp_logo.jpg' , 'zp-02.jpg']
 thumbnail: zplogo_thumb.jpg
 alt: image-alt
 project-date: 2017
