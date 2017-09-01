@@ -1,6 +1,6 @@
 ---
 title: NITEsat
-subtitle: identity
+subtitle: logo
 layout: default
 modal-id: 5
 date: 2016-01-5

@@ -1,6 +1,6 @@
 ---
 title: Google Fiber
-subtitle: digital
+subtitle: web + mobile
 layout: default
 modal-id: 4
 date: 2016-01-04

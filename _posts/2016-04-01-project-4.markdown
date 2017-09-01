@@ -1,6 +1,6 @@
 ---
 title: Zooniverse
-subtitle: digital
+subtitle: web
 layout: default
 modal-id: 3
 date: 2016-01-03

@@ -1,6 +1,6 @@
 ---
 title: Zealous Press
-subtitle: identity
+subtitle: logo + website
 layout: default
 modal-id: 7
 date: 2016-01-07
